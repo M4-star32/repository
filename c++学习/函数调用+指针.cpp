@@ -1,4 +1,5 @@
 #include <iostream>
+#include "calculator.h"
 using namespace std;
 
 void swap(int *x, int *y) {
@@ -37,5 +38,7 @@ int main() {
     swap(&x, &y); // 传递x和y的地址给swap函数
     cout << "x: " << x << ", y: " << y << endl; //地址传递，会改变实参值，如果是值传递则不会改变实参值
 
+    add(3,45);
+    cout << "Sum: " << add(3, 45) << endl; // 调用add函数并输出结果
     return 0;       
 }
