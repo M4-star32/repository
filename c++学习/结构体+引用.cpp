@@ -21,7 +21,7 @@ void swap3(int &x, int &y) {
     x = y;
     y = temp;
 }
-void fun(int x1, int){
+void fun(int x1, int y1){
     cout << "只填入数据类型进行占位" << endl; 
 }                                                       //在函数定义中如果前面的参数定义了默认值则后面的参数也必须定义默认值
 int main() {
@@ -39,8 +39,8 @@ int main() {
     int b = 20,b1 = 30;
     swap1(b, b1);
     cout << "After swap: b = " << b << ", b1 = " << b1 << endl; // 值传递
-    swap2(&b,&b1);
-    cout << "After swap: b = " << b << ", b1 = " << b1 << endl; // 地址传递
+    // swap2(&b,&b1);
+    // cout << "After swap: b = " << b << ", b1 = " << b1 << endl; // 地址传递
     swap3(b, b1);
     cout << "After swap: b = " << b << ", b1 = " << b1 << endl; // 引用传递
 

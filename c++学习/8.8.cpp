@@ -6,7 +6,7 @@ int main() {
     cout << sizeof(int) << " bytes\n";
     // 统计数据类型所占用字节数
     float f = 3.1415926f;
-    cout << "f的值为：" << f << endl;
+    cout << "f的值为" << f << endl;
     // 小数最多显示6位有效数字
     cout << sizeof(float) << " bytes\n";
     // float是单精度，占用4个字节
@@ -26,9 +26,9 @@ int main() {
     double a2 = 4.5;
     cout << a1 / a2 << endl;
     char cha = 0;
-    cout << "请输入字符cha：" << endl;
+    cout << "请输入字符cha:" << endl;
     cin >> cha;
-    cout << "您输入的字符cha是：" << cha << endl;
+    cout << "您输入的字符cha是:" << cha << endl;
     int num1 = 10;
     cout << num1++ * 2 << endl;
     // 此时num1的值为11，输出结果为20，x++是后置自增运算符，先使用num1的值再自增，故下方输出结果为22
@@ -39,7 +39,7 @@ int main() {
     cout << (!num2 || !num3) << endl;
     // 与或非运算 && || ！，返回值为bool类型，注意运算顺序！> << > &&
     int score = 0;
-    cout << "请输入分数：" << endl;
+    cout << "请输入分数:" << endl;
     cin >> score;
     if (score >= 600) 
     {
